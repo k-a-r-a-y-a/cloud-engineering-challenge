@@ -10,4 +10,9 @@ Difference between docker and kubernetes:
 docker is a containerization platform while kubernetes is a large scale orchestration platform for deploying scaling and managing containerized applications
 
 Why are linux skills important in cloud engineering:
-most cloud platforms run on linux. knowing linux helps with server management and automation 
+most cloud platforms run on linux. knowing linux helps with server management and automation
+
+Three thing to check if a cloud server is inaccessible:
+check for inbound and outbound firewall rules
+checkif the server instance is up and running
+check if you can reach the servers using ping 
